@@ -1,5 +1,5 @@
 
-const fetch = require('node-fetch').default;
+import fetch from 'node-fetch';
 const url = 'https://api.sendinblue.com/v3/contacts';
 
 exports.handler = async (event, context) => {

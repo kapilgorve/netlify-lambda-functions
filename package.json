@@ -5,6 +5,7 @@
   "author": "Kapil Gorve (https://www.jskap.com/)",
   "license": "MIT",
   "dependencies": {
+    "encoding": "^0.1.12",
     "netlify-lambda": "^1.6.3",
     "node-fetch": "^2.6.0"
   },
