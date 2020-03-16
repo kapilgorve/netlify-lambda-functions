@@ -1,0 +1,15 @@
+{
+  "name": "netlify-lambda-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kapil Gorve (https://www.jskap.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  }
+}
