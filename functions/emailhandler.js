@@ -12,7 +12,7 @@ exports.handler = async (event, context) => {
                 'Content-Type': 'application/json',
                 'api-key': process.env.SENDINBLUE_API_KEY
             },
-            body: JSON.stringify({ email: email, attributes: { FIRSTNAME: name }, listIds: [6] }),
+            body: JSON.stringify({ email: email, attributes: { FIRSTNAME: name }, listIds: [3] }),
         };
 
         try {
